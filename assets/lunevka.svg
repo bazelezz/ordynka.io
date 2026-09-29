@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Иллюстрация парка Лунёвка: сосны, река, старая мельница и прогулочная дорожка">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f0df"/>
+      <stop offset="1" stop-color="#ead6ad"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7498ae"/>
+      <stop offset=".46" stop-color="#315c9f"/>
+      <stop offset="1" stop-color="#264bb4"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#e6c779"/>
+      <stop offset="1" stop-color="#cfaa62"/>
+    </linearGradient>
+    <clipPath id="scene"><rect width="1600" height="900"/></clipPath>
+    <g id="pine">
+      <path d="M-6 0V-205H6V0Z" fill="#6a4933"/>
+      <path d="M-7-118-56-110-27-150-45-148-13-188 0-232 13-188 45-148 27-150 56-110 7-118Z" fill="#284a3a"/>
+      <path d="M-6-153-40-148-17-174-26-174 0-232 0-153Z" fill="#3b6650"/>
+      <path d="M-48-110-16-139M48-110 17-140" stroke="#193d37" stroke-width="4" fill="none"/>
+    </g>
+    <g id="pine-small">
+      <path d="M-3 0V-115H3V0Z" fill="#584735"/>
+      <path d="M-4-35-34-29-17-55-26-52-9-76 0-120 9-76 26-52 17-55 34-29 4-35Z" fill="#315642"/>
+      <path d="M-4-69-19-65 0-120 0-69Z" fill="#578066"/>
+    </g>
+    <g id="reed">
+      <path d="M0 0Q-4-27-3-61M0 0Q10-32 9-51M0 0Q-17-22-22-36" stroke="#284a3a" stroke-width="4" fill="none"/>
+      <path d="M-4-48Q-18-52-18-66Q-4-63-4-48ZM9-40Q24-43 24-56Q11-55 9-40Z" fill="#3e6d4e"/>
+      <path d="M-5-61v-18M10-50V-66" stroke="#6c5436" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g clip-path="url(#scene)">
+    <!-- Warm morning sky and distant country -->
+    <rect width="1600" height="900" fill="url(#sky)"/>
+    <path d="M0 147C252 202 521 120 809 164S1318 195 1600 119" stroke="#fff9e6" stroke-width="15" opacity=".47" fill="none"/>
+    <path d="M-25 266C198 240 301 264 513 248M1069 298c193-21 331-7 584-28" stroke="#fff7df" stroke-width="7" opacity=".68" fill="none" stroke-linecap="round"/>
+    <circle cx="1252" cy="179" r="102" fill="#db654e"/>
+    <circle cx="1252" cy="179" r="126" fill="none" stroke="#db654e" stroke-width="3" opacity=".47"/>
+    <path d="M1065 179h64m246 0h65M1252 1v52m0 252v54" stroke="#db654e" stroke-width="3" opacity=".42"/>
+    <path d="M67 309q32-19 64 0t63 0m528-108q29-15 58 0t58 0" stroke="#d8a86d" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>
+    <path d="M666 154q18-14 36 2 16-14 34-1M900 195q14-11 29 0 14-10 28 1" fill="none" stroke="#284a3a" stroke-width="3" stroke-linecap="round"/>
+
+    <path d="M0 420C211 343 399 379 580 402c214 27 284-67 479-68 222-1 360 80 541 73V646H0Z" fill="#a1b19c"/>
+    <path d="M0 465C194 393 362 411 582 445c184 28 348-60 531-54 156 5 344 90 487 49V669H0Z" fill="#698573"/>
+    <path d="M0 497c251-39 378-8 594-27 229-20 363-26 561-1 177 23 300 4 445-30v188H0Z" fill="#3c6854"/>
+    <path d="M0 531c259-54 407-2 572-19 238-25 351-30 534 13 171 40 336 21 494-27v219H0Z" fill="#284a3a"/>
+
+    <!-- Distant pine silhouettes -->
+    <g opacity=".69">
+      <use href="#pine-small" transform="translate(27 526) scale(1.05)"/>
+      <use href="#pine-small" transform="translate(93 517) scale(.73)"/>
+      <use href="#pine-small" transform="translate(180 512) scale(1.15)"/>
+      <use href="#pine-small" transform="translate(252 515) scale(.79)"/>
+      <use href="#pine-small" transform="translate(328 512) scale(.93)"/>
+      <use href="#pine-small" transform="translate(435 507) scale(.68)"/>
+      <use href="#pine-small" transform="translate(548 515) scale(1.02)"/>
+      <use href="#pine-small" transform="translate(630 505) scale(.72)"/>
+      <use href="#pine-small" transform="translate(749 505) scale(.89)"/>
+      <use href="#pine-small" transform="translate(828 513) scale(.69)"/>
+      <use href="#pine-small" transform="translate(1291 521) scale(.84)"/>
+      <use href="#pine-small" transform="translate(1360 524) scale(1.1)"/>
+      <use href="#pine-small" transform="translate(1460 519) scale(.73)"/>
+      <use href="#pine-small" transform="translate(1531 528) scale(1.02)"/>
+    </g>
+
+    <!-- Orda river, rising towards the viewer -->
+    <path d="M-20 548c240 13 344 48 541 45 167-2 292-39 427-51 167-15 320 41 672-5v363H-20Z" fill="url(#river)"/>
+    <path d="M-20 548c240 13 344 48 541 45 167-2 292-39 427-51 167-15 320 41 672-5" fill="none" stroke="#d4ddcc" stroke-width="17" opacity=".83"/>
+    <path d="M-10 584c163 11 333 53 519 38 185-15 278-41 446-38 193 5 315 49 645-5M0 650c213 30 322 48 496 27 202-23 297-44 487-24 212 22 339 34 617-17M0 753c217 35 388 33 554 16 185-19 377-37 563-10 194 28 297 16 483-10" stroke="#b5c9c9" stroke-width="7" opacity=".54" fill="none"/>
+    <path d="M154 613h102m72 34h89m224-29h99m149 51h144m335-48h109M112 722h122m364-22h107m411 10h142m-344 106h96m307-4h139" stroke="#f5f0df" stroke-width="5" opacity=".7" stroke-linecap="round"/>
+    <path d="M732 765q140 30 302 2m-526 47q184 26 359-11m332 48q143 12 255-14" stroke="#85a9ba" stroke-width="4" fill="none" opacity=".65"/>
+    <path d="M931 605c75 9 141 25 205 49l-45 20c-53-29-113-43-181-52Z" fill="#eac881" opacity=".22"/>
+
+    <!-- Far shore and the old water mill -->
+    <path d="M865 528c132-22 270 22 409 6 101-12 183-36 326-18v93c-148-34-240-4-333 5-149 13-275-38-402-21Z" fill="#d2ad68"/>
+    <path d="M849 540c132-22 274 22 413 9 127-12 230-45 338-21" fill="none" stroke="#f0d594" stroke-width="9"/>
+    <path d="M881 559c89-16 166 4 234 14 96 14 159 3 244-6" fill="none" stroke="#8c764c" stroke-width="4" opacity=".55"/>
+
+    <!-- Mill platform and wooden posts -->
+    <path d="M899 548h337v17H899Z" fill="#4b3c33"/>
+    <path d="M925 565h15v57h-15Zm96 0h15v68h-15Zm124 0h15v57h-15Zm68 0h15v46h-15Z" fill="#4e4437"/>
+    <path d="M925 616h40m56 13h55m69-10h61" stroke="#d3ad69" stroke-width="5" opacity=".55"/>
+    <!-- Roof and mill body -->
+    <path d="M904 410 1055 329 1207 408v148H904Z" fill="#a76c48"/>
+    <path d="M904 411 1055 329 1207 408v22l-152-73-151 76Z" fill="#e4bf69"/>
+    <path d="m872 421 183-100 184 98-20 25-164-86-165 89Z" fill="#563f39"/>
+    <path d="M886 418 1055 330l169 88" stroke="#e4bf69" stroke-width="7" fill="none" stroke-linejoin="round"/>
+    <path d="M922 449h270M922 480h270M922 512h270M922 541h270" stroke="#744c3f" stroke-width="8" opacity=".7"/>
+    <path d="M918 437v109m56-110v109m165-109v109m55-109v109" stroke="#d5a169" stroke-width="6" opacity=".7"/>
+    <!-- Mill window and door -->
+    <path d="M1014 401q0-35 40-35t40 35v52h-80Z" fill="#324845" stroke="#e4bf69" stroke-width="8"/>
+    <path d="M1054 368v86m-41-43h83" stroke="#e4bf69" stroke-width="6"/>
+    <path d="M948 474h40v50h-40Z" fill="#324845" stroke="#ead29b" stroke-width="6"/>
+    <path d="M968 474v50m-20-25h40" stroke="#ead29b" stroke-width="4"/>
+    <path d="M1055 478h50v77h-50Z" fill="#4f3730" stroke="#e4bf69" stroke-width="8"/>
+    <circle cx="1094" cy="520" r="3" fill="#e4bf69"/>
+    <path d="M901 557h309" stroke="#e4bf69" stroke-width="8"/>
+    <!-- Water wheel -->
+    <circle cx="1191" cy="545" r="75" fill="#60483d" stroke="#e4bf69" stroke-width="12"/>
+    <circle cx="1191" cy="545" r="52" fill="#a6754a" stroke="#e4bf69" stroke-width="8"/>
+    <circle cx="1191" cy="545" r="14" fill="#e4bf69"/>
+    <g stroke="#e4bf69" stroke-width="10" stroke-linecap="round">
+      <path d="M1191 478v53m0 27v54m-67-67h53m28 0h53m-114-47 37 37m20 20 37 37m-94 0 37-37m20-20 37-37"/>
+    </g>
+    <g stroke="#4b3c33" stroke-width="10" stroke-linecap="square">
+      <path d="M1164 472v-13m54 13 5-13m34 40 13-5m-9 55h14m-48 45 8 13m-59 1-3 14m-41-52-14 4m15-63-13-7"/>
+    </g>
+    <path d="M1144 618q47 23 107 0m-74 18q34 9 78-3" fill="none" stroke="#e6c779" stroke-width="5" opacity=".75"/>
+
+    <!-- Left shoreline and boardwalk into the park -->
+    <path d="M-10 523c145-37 290-23 391 26 65 32 87 75 137 99 46 22 99 29 186 51-150 47-233 98-282 201H-10Z" fill="url(#sand)"/>
+    <path d="M0 521c149-36 289-17 385 30 62 31 86 76 137 98 58 26 109 28 179 51" fill="none" stroke="#f7dda0" stroke-width="12"/>
+    <path d="M0 580c151-36 249-25 334 31 61 40 94 80 144 100 46 18 92 28 155 40" fill="none" stroke="#8e7b51" stroke-width="7" opacity=".8"/>
+    <path d="M0 607c130-23 221-21 296 23 69 40 109 96 177 121 36 14 76 22 111 30" fill="none" stroke="#f5e1aa" stroke-width="74"/>
+    <path d="M0 607c130-23 221-21 296 23 69 40 109 96 177 121 36 14 76 22 111 30" fill="none" stroke="#d8b873" stroke-width="4" stroke-dasharray="22 23" opacity=".78"/>
+    <path d="M0 577c137-26 233-22 321 29 66 38 108 91 162 117 45 21 88 28 138 37" fill="none" stroke="#775943" stroke-width="10"/>
+    <path d="M0 651c109-20 201-17 271 27 64 39 104 94 179 124 37 15 71 23 101 29" fill="none" stroke="#775943" stroke-width="10"/>
+    <g fill="#654633">
+      <path d="M59 573h8v72h-8Zm95-2h8v70h-8Zm103 16h8v72h-8Zm92 47h8v72h-8Zm83 68h8v69h-8Zm84 45h8v67h-8Z"/>
+    </g>
+    <g fill="#654633">
+      <path d="M83 645h8v70h-8Zm93 1h8v68h-8Zm91 28h8v71h-8Zm84 51h8v67h-8Zm80 49h8v67h-8Z"/>
+    </g>
+    <!-- Viewing tower nested in the grove -->
+    <path d="M249 506h127v16H249Z" fill="#5f4335"/>
+    <path d="M269 520h10v78h-10Zm79 0h10v82h-10Z" fill="#5f4335"/>
+    <path d="M253 460h119v14H253Zm11 14h8v32h-8Zm96 0h8v32h-8Z" fill="#8a6144"/>
+    <path d="M238 460 313 414l75 46Z" fill="#d27b56"/>
+    <path d="M246 459 313 420l67 39" stroke="#eed18e" stroke-width="6" fill="none"/>
+    <path d="M283 459v-29m60 29v-29" stroke="#71513c" stroke-width="5"/>
+    <path d="M295 521v-46m38 46v-46" stroke="#e4bf69" stroke-width="4"/>
+    <path d="M301 521 271 588m42-67-30 67m42-67-30 67m42-67-30 67" stroke="#5f4335" stroke-width="5"/>
+    <path d="M271 583h66" stroke="#e4bf69" stroke-width="5"/>
+
+    <!-- Forest foreground: deliberately tall, framing the scene -->
+    <path d="M0 0h80v900H0Z" fill="#284a3a" opacity=".13"/>
+    <use href="#pine" transform="translate(75 673) scale(2.02)"/>
+    <use href="#pine" transform="translate(151 649) scale(1.33)"/>
+    <use href="#pine" transform="translate(62 755) scale(1.05)"/>
+    <use href="#pine" transform="translate(1587 699) scale(1.83)"/>
+    <use href="#pine" transform="translate(1508 620) scale(1.09)"/>
+    <use href="#pine-small" transform="translate(1397 599) scale(1.18)"/>
+    <path d="M-10 824c146-83 279-55 413 18 82 44 141 45 238 58H-10Z" fill="#284a3a"/>
+    <path d="M1331 900c95-54 192-67 269-108v108Z" fill="#284a3a"/>
+    <path d="M0 850c94-38 174-44 245-22m103 39c74 32 131 41 220 42" fill="none" stroke="#41694b" stroke-width="9" opacity=".8"/>
+    <g fill="#e4bf69" opacity=".95">
+      <circle cx="100" cy="774" r="5"/><circle cx="130" cy="796" r="4"/><circle cx="258" cy="814" r="5"/>
+      <circle cx="1411" cy="837" r="5"/><circle cx="1480" cy="819" r="4"/>
+    </g>
+    <use href="#reed" transform="translate(658 719) scale(1.16)"/>
+    <use href="#reed" transform="translate(721 706) scale(.8)"/>
+    <use href="#reed" transform="translate(854 578) scale(.75)"/>
+    <use href="#reed" transform="translate(1287 607) scale(.88)"/>
+    <g stroke="#3f684a" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M313 823q-10-22-24-35m24 35q7-27 24-41m-9 47q1-31 15-48"/>
+      <path d="M1450 859q-10-22-24-35m24 35q7-27 24-41m-9 47q1-31 15-48"/>
+    </g>
+
+    <!-- A quiet festival trace: a string of fabric flags -->
+    <path d="M53 327Q380 390 720 282" fill="none" stroke="#f9e9c9" stroke-width="4"/>
+    <path d="m202 351 26 5-18 36Z" fill="#db654e"/>
+    <path d="m259 358 27 3-16 36Z" fill="#264bb4"/>
+    <path d="m316 358 27 0-13 35Z" fill="#e4bf69"/>
+    <path d="m373 352 27-4-9 37Z" fill="#db654e"/>
+    <path d="m430 341 26-7-6 35Z" fill="#264bb4"/>
+    <path d="m485 325 25-9-4 36Z" fill="#e4bf69"/>
+    <path d="m537 307 24-11 0 37Z" fill="#db654e"/>
+    <g stroke="#fff5dc" stroke-width="3" opacity=".65">
+      <path d="m213 356-4 18m62-15-2 19m63-20-1 17m60-23 0 19m57-37 2 18m56-35 3 19"/>
+    </g>
+
+    <!-- Poster grain as gentle contour strokes -->
+    <path d="M29 371c116-29 185-25 268-13m991 322c93-9 194-23 289-42" stroke="#f5f0df" stroke-width="3" opacity=".42" fill="none"/>
+    <rect x="13" y="13" width="1574" height="874" rx="7" fill="none" stroke="#f5f0df" stroke-width="7" opacity=".64"/>
+  </g>
+</svg>
